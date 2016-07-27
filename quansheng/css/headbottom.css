@@ -1,0 +1,103 @@
+
+.headonclick{
+	color: red!important;
+	border-color: red !important;
+}
+
+
+
+.head{
+	height: 202px;
+	width: 1366px;
+	background: #eceded url(../img/map.png) 100px bottom  no-repeat;
+	position: relative;
+}
+.headtop{
+	overflow: hidden;
+}
+.headtop ul{
+	list-style: none;
+	margin-top: 70px;
+	margin-right: 80px;
+	text-align: center;
+}
+.headtop ul li{
+	float: left;
+	font-size: 20px;
+	width: 110px;
+	color: #67615f;
+	padding-bottom: 6px;
+	border-bottom: 4px solid #67615f;
+}
+.headtop ul a{
+	text-decoration: none;
+}
+.headtop ul li:hover a{
+	color:red;
+	text-decoration: underline;
+}
+.headtop ul li:hover{
+	border-color: red;
+}
+.headlogo{
+	height: 86px;
+	width: 230px;
+	margin-left: 110px;
+	margin-top: 40px;
+	background: transparent url(../img/ajingling.png) 0 0 no-repeat;
+	padding-right: 44px;
+	padding-color: transparent; 
+	border-right: 2px solid #d0000e;
+}
+.headbottom{
+	background-color: rgba(122,122,123,0.7);
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	width: 1366px;
+	word-spacing: 6px;
+	font-size: 14px;
+}
+.headbottom p{
+	margin-left: 180px;
+	margin-top: 12px;
+	color: white;
+}
+
+
+
+
+
+
+
+.bottomtop{
+	margin-top:30px;
+}
+.bottom{
+	height: 170px;
+	position: relative;
+}
+.bottomlogo{
+	height: 86px;
+	width: 230px;
+	margin-left: 110px;
+	background: #fff url(../img/ajingling.png) 0 0 no-repeat;
+	padding-right: 44px;
+	border-right: 2px solid #d0000e;
+}
+.bottomerweima{
+	height: 72px;
+	width: 72px;
+	margin-right: 110px;
+	margin-left: 20px;
+	background: #fff url(../img/bottom.png) 0 0 no-repeat;
+}
+.bottom a{
+	color: #727172;
+	text-decoration: none;
+}
+.bottom p{
+	color: #727172;
+	text-align: right;
+	margin-top: 2px;
+}

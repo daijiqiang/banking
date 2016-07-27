@@ -1,0 +1,208 @@
+.middle{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin:20px auto;
+	margin-bottom: 80px;
+}
+
+
+/*合作*/
+.hezuo{
+	position: relative;
+	margin-top: 30px;
+	height: 300px;
+	width: 1200px;
+	background-color: #f9f9f9;
+}
+.hezuoimg{
+	height: 300px;
+	width: 510px;
+	background: url(../img/cooperation_03.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.planleft{
+	position: absolute;
+    left: -32px;
+    top: -30px;
+    height: 22px;
+    width: 22px;
+    background: transparent url(../img/plan_01.png) 0 0 no-repeat;
+}
+/*右边引号*/
+.planright{
+	position: absolute;
+    right: 3px;
+    bottom: 20px;
+    height: 22px;
+    width: 22px;
+    background: transparent url(../img/plan_02.png) 0 0 no-repeat;
+}
+.size{
+font-size: 20px;
+}
+.englishtitle{
+	vertical-align: bottom;
+	line-height: 50px;
+	font-size: 1px;
+}
+/*右边文字*/
+.righttext{
+    width: 580px;
+    height: 200px;
+    background-color: #f9f9f9;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.righttext p{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.lefttext p{
+	margin: 10px 30px;
+}
+.righttext input,.lefttext input{
+	margin-top: 30px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #a1a1a1;
+	color: #a1a1a1;
+}
+.righttext input{
+	margin-left: 30px;
+}
+.righttitle{
+	position: absolute;
+	right :20px;
+	top:10px;
+	text-align: center;
+	line-height: 38px;
+}
+.lefttitle{
+	position: absolute;
+	left :20px;
+	top:10px;
+	text-align: center;
+	line-height: 38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*切换*/
+.chengben:hover,.xiaolv:hover,.baozhang:hover,.yewu:hover{
+	border-color:red;
+	border-top: none;
+}
+.chengben,.xiaolv,.baozhang,.yewu{
+	border: 1px solid #9b9b9b;
+	border-top: none;
+	background-color: white;
+    position: relative;
+    width: 198px;
+    height: 350px;
+    margin: 50px 50px;
+}
+.chengben img,.xiaolv img,.yewu img,.baozhang img{
+	position: absolute;
+	left: -1px;
+	height: 140px;
+	width: 200px;
+}
+.business{
+	position: relative;
+	top: 50px;
+	color: #9b9b9b;
+	width: 100%;
+	height: 600px;
+	margin:0 auto;
+}
+.chengben p,.xiaolv p,.baozhang p,.yewu p{
+	margin: 10px 20px;
+	font-size: 14px;
+	text-align: left;
+}
+.business input{
+	border: 1px solid #9b9b9b;
+	border-radius: 6px;
+	color: #9b9b9b;
+	background-color: transparent;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.businesstext{
+	position: absolute;
+	top: 150px;
+	/*height: 200px;*/
+	/*left: 20px;*/
+}
+.businesstitle{
+	font-size: 18px;
+	color: black;
+
+}
+.rexian{
+	font-size: 26px;
+	margin-left: 20px;
+}
+.show{
+	position: relative;
+	left: 0;
+	top: 0;
+	height: 400px;
+}
+.show1,.show2,.show3{
+	width: 450px;
+	height:250px;
+
+}
+.show1{
+	position: absolute;
+	top: 100px;
+	left:100px;
+	background: url(../img/cooperation_29.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.show2{
+	position: absolute;
+	top: 100px;
+	right:100px;
+	background:  url(../img/cooperation_24.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.show3{
+	position: absolute;
+	top: 150px;
+	left:50%;
+	margin-left: -220px;
+	background:  url(../img/cooperation_22.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.showleft{
+	width: 29px;
+	height: 33px;
+	background: transparent url(../img/home_18.png) 0 0 no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50px;
+}
+.showright{
+	width: 29px;
+	height: 33px;
+	background: transparent url(../img/home_19.png) 0 0 no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 50px;
+}

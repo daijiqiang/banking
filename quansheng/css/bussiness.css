@@ -1,0 +1,226 @@
+.middle{
+	position: relative;
+	width: 966px;
+	margin: auto;
+}
+
+
+.xindai,.licai,.xiaofei,.baoxian,.zhifu{
+	position: relative;
+	margin-top: 30px;
+	height: 400px;
+	width: 100%;
+}
+.leftyewu{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	/*text-indent: 8px;*/
+	height: 38px;
+    width: 112px;
+	background: transparent url(../img/ajingling.png) -336px -261px no-repeat;
+}
+.rightyewu{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-indent: 8px;
+	height: 38px;
+    width: 112px;
+	background: transparent url(../img/ajingling.png) -534px -261px no-repeat;
+}
+.lefttext{
+    width: 606px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    color: #a1a1a1;
+    font-size: 12px;
+}
+
+.righttext{
+    width: 606px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    color: #a1a1a1;
+    font-size: 12px;
+}
+.righttext p{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.lefttext p{
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+.righttext input,.lefttext input{
+	margin-top: 30px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #a1a1a1;
+	color: #a1a1a1;
+}
+.righttext input{
+	margin-left: 30px;
+}
+ .zhongwen:first-letter{
+ 	font-size: 30px;
+ }
+ .hidden{
+	width: 130px;
+    font-size: 14px;
+    position: absolute;
+    left: -48px;
+    top: 34px;
+    color: #a1a1a1;
+    display: none;
+}
+.tubiao{
+	height: 38px;
+	width: 38px;
+	margin-right:10px; 
+	position: relative;
+}
+.righttitle{
+	position: absolute;
+	right :0;
+	top:0;
+	text-align: center;
+	line-height: 38px;
+}
+.lefttitle{
+	position: absolute;
+	left :0;
+	top:0;
+	text-align: center;
+	line-height: 38px;
+}
+
+.xindaiimg,.xiaofeiimg,.zhifuimg{
+	height: 270px;
+	width: 430px;
+	background-size: 100% 100%!important;	
+}
+.licaiimg,.baoxianimg{
+	height: 270px;
+	width: 430px;
+	position: absolute;
+	right: 0;
+	top: 0;	
+	background-size: 100% 100%!important;	
+}
+/*信贷业务*/
+
+.xindaiimg{
+	background: #fff url(../img/yewu_03.jpg) 0 0 no-repeat;
+
+}
+.xindai1{
+	background: #fff url(../img/ajingling.png) -22px -114px no-repeat;
+}
+.xindai2{
+	background: #fff url(../img/ajingling.png) -118px -114px no-repeat;
+}
+.xindai3{
+	background: #fff url(../img/ajingling.png) -216px -114px no-repeat;
+}
+.xindai1:hover .hidden,.xindai2:hover .hidden,.xindai3:hover .hidden{
+	display: block;
+}
+
+
+
+
+
+/*理财*/
+.licaiimg{
+	height: 270px;
+	width: 430px;
+	background: #fff url(../img/yewu_11.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.licai1{
+	background: #fff url(../img/ajingling.png) -22px -190px no-repeat;
+}
+.licai2{
+	background: #fff url(../img/ajingling.png) -118px -190px no-repeat;
+}
+.licai3{
+	background: #fff url(../img/ajingling.png) -216px -190px no-repeat;
+}
+.licai1:hover .hidden,.licai2:hover .hidden,.licai3:hover .hidden{
+	display: block;
+}
+
+
+
+
+
+
+/*消费*/
+.xiaofeiimg{
+	width: 386px;
+	background: #fff url(../img/yewu_18.jpg) 0 0 no-repeat;
+}
+.xiaofei1{
+	background: #fff url(../img/ajingling.png) -374px -114px no-repeat;
+}
+.xiaofei2{
+	background: #fff url(../img/ajingling.png) -462px -114px no-repeat;
+}
+.xiaofei3{
+	background: #fff url(../img/ajingling.png) -558px -114px no-repeat;
+}
+.xiaofei1:hover .hidden,.xiaofei2:hover .hidden,.xiaofei3:hover .hidden{
+	display: block;
+}
+
+.xiaofeitext{
+	width: 568px;
+}
+
+
+
+/*保险*/
+
+.baoxianimg{
+	background: #fff url(../img/yewu_27.jpg) 0 0 no-repeat;
+}
+.baoxian1{
+	background: #fff url(../img/ajingling.png) -374px -190px no-repeat;
+}
+.baoxian2{
+	background: #fff url(../img/ajingling.png) -462px -190px no-repeat;
+}
+.baoxian3{
+	background: #fff url(../img/ajingling.png) -558px -190px no-repeat;
+}
+.baoxian1:hover .hidden,.baoxian2:hover .hidden,.baoxian3:hover .hidden{
+	display: block;
+}
+
+
+
+/*三方支付*/
+.zhifuimg{
+	background: #fff url(../img/yewu_32.jpg) 0 0 no-repeat;
+}
+.zhifu1{
+	background: #fff url(../img/ajingling.png) -22px -260px no-repeat;
+}
+.zhifu2{
+	background: #fff url(../img/ajingling.png) -118px -260px no-repeat;
+}
+.zhifu3{
+	background: #fff url(../img/ajingling.png) -216px -260px no-repeat;
+}
+.zhifu1:hover .hidden,.zhifu2:hover .hidden,.zhifu3:hover .hidden{
+	display: block;
+}

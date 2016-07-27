@@ -1,0 +1,248 @@
+.headhr{
+	background:#ececec;
+	height: 40px;
+	width: 100%;
+
+}
+.sanjiao{
+	height: 0;
+	width: 0;
+	border: 20px solid transparent;
+	border-top:20px solid  #ececec;
+	position: absolute;
+	right: 300px;
+}
+.middle{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	margin:20px auto;
+	margin-bottom: 80px;
+}
+.zhici,.jianjie{
+	position: relative;
+	margin-top: 50px;
+	height: 350px;
+	width: 1000px;
+
+}
+
+
+
+
+
+/*左边引号*/
+.planleft{
+	position: absolute;
+	left: -32px;
+	top: -46px;
+	height: 22px;
+	width: 22px;
+	background: transparent url(../img/plan_01.png) 0 0 no-repeat;
+}
+/*右边引号*/
+.planright{
+	position: absolute;
+    right: 3px;
+    bottom: -80px;
+    height: 22px;
+    width: 22px;
+    background: transparent url(../img/plan_02.png) 0 0 no-repeat;
+}
+
+.size{
+font-size: 20px;
+}
+.englishtitle{
+	vertical-align: bottom;
+	line-height: 50px;
+	font-size: 1px;
+}
+
+
+/*董事长致辞*/
+
+/*右边文字*/
+.righttext{
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    color: #a1a1a1;
+}
+.righttext p{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.righttext input{
+	margin-left: 30px;
+}
+
+
+.righttitle{
+	position: absolute;
+	right :30px;
+	top:10px;
+	text-align: center;
+	line-height: 38px;
+} 
+.zhicititle{
+	font-size: 16px;
+	color:#a1a1a1;
+}
+.zhiciimg{
+	background: #fff url(../img/jituan_03.jpg) 0 0 no-repeat;
+	height: 300px;
+	width: 200px;
+	background-size: 100% 100%;
+}
+
+/*集团简介*/
+.jianjie{
+	background-color: #ececec;
+	width: 1175px;
+	position: relative;
+	left: -100px;
+}
+.jianjieimg{
+	background: #ececec url(../img/jituan_07.jpg) 0 0 no-repeat;
+	height: 350px;
+	width: 430px;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 20px;
+}
+/*左边文字*/
+.lefttext{
+	width: 493px;
+    height: 120px;
+    background-color: #ececec;
+    position: absolute;
+    left: 43px;
+    top: 124px;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.lefttext p{
+	margin: 10px 30px;
+}
+.righttext input{
+	margin-top: 30px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #a1a1a1;
+	color: #a1a1a1;
+}
+
+.lefttitle{
+	position: absolute;
+	left :20px;
+	top:10px;
+	text-align: center;
+	line-height: 38px;
+}
+/*品牌文化*/
+.pinpai{
+	position: relative; 
+	height: 500px;
+	margin-top: 100px;
+}
+.pinpaiimg{
+	background:  url(../img/jituan_11.jpg) 0 0 no-repeat;
+	height: 288px;
+	width: 500px;
+	background-size: 100% 100%;
+}
+.pinpaittext{
+    width: 940px;
+    height: 130px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 360px;
+    color: #a1a1a1;
+}
+.pinpaittext p{
+	margin-top: 4px;
+}
+.pinpairighttext{
+	width: 600px;
+    height: 200px;
+    background-color: #ececec;
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    color: #a1a1a1;
+    z-index: 999;
+}
+.pinpairighttext p{
+	margin-left: 150px;
+	height: 26px;
+}
+.pinpairighttext span{
+	margin-right: 20px;
+	font-weight: bold;
+}
+.top10{
+margin-top: 10px;}
+
+
+
+/*荣誉*/
+.rongyu{
+	height: 500px;
+	width: 1000px;
+	position: relative;
+	margin-top: 150px;
+	color: #a1a1a1;
+}
+.rongyubg{
+	background: #fff url(../img/jituan_19.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+    height: 308px;
+    width: 1175px;
+    position: relative;
+    top: 80px;
+    left: -100px;
+    z-index: 500;
+}
+.rongyuimg{
+	background: #fff url(../img/jituan_15.jpg) -52px 0 no-repeat;
+    height: 252px;
+    width: 381px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 600;
+}
+.rongyutext{
+	position: absolute;
+    top: 200px;
+    left: 417px;
+    width: 300px;
+    z-index: 700;
+    font-size: 14px;
+
+}
+
+/*组织*/
+.zuzhi{
+margin-top: -50px;
+height: 700px;
+width: 1000px;
+position: relative;
+}
+.zuzhiimg{
+	width: 1000px;
+	height: 630px;
+	background:  url(../img/jituan_23.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 50px;
+
+}

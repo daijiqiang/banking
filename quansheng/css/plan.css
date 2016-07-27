@@ -1,0 +1,153 @@
+.size{
+font-size: 20px;
+}
+.englishtitle{
+	vertical-align: bottom;
+	line-height: 50px;
+	font-size: 1px;
+}
+
+
+.middle{
+	position: relative;
+	width: 966px;
+	margin:20px auto;
+	margin-bottom: 80px;
+}
+
+
+.jijin,.ziguan,.zhifu,.chuanmei{
+	position: relative;
+	margin-top: 30px;
+	height: 270px;
+	width: 1000px;
+
+}
+
+.jijin,.zhifu{
+	background-color: #f9f9f9;
+}
+
+
+.ziguan,.chuanmei{
+		background-color: white;
+}
+
+
+/*左边引号*/
+.planleft{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 22px;
+	width: 22px;
+	background: transparent url(../img/plan_01.png) 0 0 no-repeat;
+}
+/*左边文字*/
+.lefttext{
+	width: 480px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 60px;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+/*右边引号*/
+.planright{
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+	height: 22px;
+	width: 22px;
+	background: transparent url(../img/plan_02.png) 0 0 no-repeat;
+}
+/*右边文字*/
+.righttext{
+    width: 480px;
+    height: 200px;
+    background-color: #f9f9f9;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+.righttext p{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.lefttext p{
+	margin: 10px 30px;
+}
+.righttext input,.lefttext input{
+	margin-top: 30px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #a1a1a1;
+	color: #a1a1a1;
+}
+.righttext input{
+	margin-left: 30px;
+}
+
+
+.righttitle{
+	position: absolute;
+	right :20px;
+	top:10px;
+	text-align: center;
+	line-height: 38px;
+}
+.lefttitle{
+	position: absolute;
+	left :20px;
+	top:10px;
+	text-align: center;
+	line-height: 38px;
+}
+
+.jijinimg,.zhifuimg{
+	height: 270px;
+	width: 430px;
+	background-size: 100% 100%!important;	
+}
+.ziguanimg,.chuanmeiimg{
+	height: 270px;
+	width: 430px;
+	position: absolute;
+	right: 0;
+	top: 0;	
+	background-size: 100% 100%!important;	
+}
+/*基金*/
+
+.jijinimg{
+	height: 264px;
+	width: 433px;
+	background: #fff url(../img/plan_03.jpg) 0 0 no-repeat;
+}
+/*资管*/
+.ziguanimg{
+	height: 270px;
+	width: 430px;
+	background: #fff url(../img/plan_07.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+/*支付*/
+.zhifuimg{
+	width: 386px;
+	background: #fff url(../img/plan_10.jpg) 0 0 no-repeat;
+}
+/*传媒*/
+.chuanmeiimg{
+	background: #fff url(../img/plan_13.jpg) 0 0 no-repeat;
+}
+
+
+
+
+

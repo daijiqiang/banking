@@ -1,0 +1,129 @@
+.middle{
+	position: relative;
+	width: 1000px;
+	margin:20px auto;
+	margin-bottom: 80px;
+	height: 1000px;
+}
+.img{
+	position: relative;
+	width: 1000px;
+	height: 234px;
+	background: transparent url(../img/xinwen_02.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.table{
+	width: 900px;
+	position: absolute;
+	left: 8%;
+	top: 100px;
+}
+.table ul{
+	list-style: none;
+}
+.lefttitle li{
+	height: 100px;
+	width: 230px;
+	background-color: #9b9a9a;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	overflow: hidden;
+	border-bottom: 1px solid black;
+}
+.lefttitle li .alift,.bgpink .alift,.bgred .alift{
+	text-indent: -2em;
+	font-size: 26px;
+}
+
+.lefttitle li p,.bgpink p,.bgred p{
+	margin-top: 10px;
+}
+.bordernone{
+	border: none!important;
+}
+
+
+
+
+
+
+
+
+.rightcon{
+	padding:0px;
+	background-color: white;
+	width: 606px
+}
+.bgred{
+	background: #e60012;
+	height: 100%;
+	width: 30%
+}
+.bgpink{
+	background: #edd3a3;
+	height: 100%;
+	width: 30%
+}
+
+.righttitle div{
+	border-left:1px solid #e0c086;
+	color: white;
+}
+
+.rightcon li{
+	height: 150px;
+	width: 670px;
+	overflow: hidden;
+	text-align: center;
+	border-bottom: 1px solid #e1e1e1;
+}
+.righttitle{
+	height: 100px!important;
+}
+.aleft{
+	text-align: left;
+	margin: 10px 50px;
+}
+
+.pwidth{
+	width: 546px;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin-top: 10px;
+}
+.rightcon li .bold{
+	margin-top: 20px;
+
+}
+.liang{
+	display: inline-block;
+	height: 16px;
+	width: 50px;
+	background: #fff url(../img/ajingling.png) -274px -38px no-repeat;
+	outline: none;
+	border: none;
+}
+.share{
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    height: 19px;
+    width: 50px;
+    background: #fff url(../img/ajingling.png) -388px -40px no-repeat;
+    outline: none;
+    border: none;
+}
+.aleft a{
+	color:#edd3a3;
+}
+
+li input{
+	background-color: transparent;
+	border: 1px solid #e60012;
+	height: 50px;
+	width: 150px;
+	color: #e60012;
+	margin-top: 50px;
+}
